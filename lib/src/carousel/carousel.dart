@@ -172,7 +172,7 @@ class _CarouselState extends State<Carousel> {
   Widget build(BuildContext context) {
     offset = (widget.type.toString().toLowerCase() == "slideswiper" ||
             widget.type == Types.slideSwiper)
-        ? 0.8
+        ? 0.5
         : 1.0;
     Size size = MediaQuery.of(context).size;
     ScreenRatio.setScreenRatio(size: size);
